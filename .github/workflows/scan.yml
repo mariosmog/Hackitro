@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ai/qwen3-embedding-vllm:latest'
+          default: 'mcp/astra-db:latest'
 
 # env:
 #   REGISTRY: ghcr.io
