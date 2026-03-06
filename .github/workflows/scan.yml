@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ai/ministral3:latest'
+          default: 'grafana/agent:latest'
 
 # env:
 #   REGISTRY: ghcr.io
