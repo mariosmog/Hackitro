@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'mweebad/enginex:0.0.51'
+          default: 'nginx'
 
 # env:
 #   REGISTRY: ghcr.io
