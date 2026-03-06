@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'mcp/firewalla-mcp-server:latest'
+          default: 'mcp/tigris:latest'
 
 # env:
 #   REGISTRY: ghcr.io
