@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'mcp/astra-db:latest'
+          default: 'redhat/granite-3-1b-a400m-instruct:1.0-1731549069'
 
 # env:
 #   REGISTRY: ghcr.io
