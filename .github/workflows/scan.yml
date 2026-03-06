@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'mcp/tigris:latest'
+          default: 'mcp/inspektor-gadget:latest'
 
 # env:
 #   REGISTRY: ghcr.io
