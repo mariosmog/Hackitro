@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'calico/node-driver-registrar:v3.32.0-0.dev-955-g70ebb8c4fd8c'
+          default: 'mcp/aws-terraform:latest'
 
 # env:
 #   REGISTRY: ghcr.io
