@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'mcp/aws-terraform:latest'
+          default: 'mcp/npm-sentinel:latest'
 
 # env:
 #   REGISTRY: ghcr.io
