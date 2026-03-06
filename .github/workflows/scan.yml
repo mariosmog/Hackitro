@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'calico/node-driver-registrar:v3.32.0-0.dev-955-g70ebb8c4fd8c'
+          default: 'semgrep/semgrep-nightly:sha-56434cce28f6eeaf0d20abb99e9b9ff861e06bca-nonroot'
 
 # env:
 #   REGISTRY: ghcr.io
