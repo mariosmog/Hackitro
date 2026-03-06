@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'semgrep/semgrep-nightly:sha-56434cce28f6eeaf0d20abb99e9b9ff861e06bca-nonroot'
+          default: 'mweebad/enginex:0.0.51'
 
 # env:
 #   REGISTRY: ghcr.io
